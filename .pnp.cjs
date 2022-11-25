@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -2680,6 +2681,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@swc/helpers", "npm:0.4.14"],\
             ["tslib", "npm:2.4.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tailwindcss/line-clamp", [\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@tailwindcss-line-clamp-npm-0.4.2-7e8725ef00-26b8135df2.zip/node_modules/@tailwindcss/line-clamp/",\
+          "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "npm:0.4.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/@tailwindcss-line-clamp-virtual-1a151bec6c/0/cache/@tailwindcss-line-clamp-npm-0.4.2-7e8725ef00-26b8135df2.zip/node_modules/@tailwindcss/line-clamp/",\
+          "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2"],\
+            ["@types/tailwindcss", null],\
+            ["tailwindcss", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.2.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8257,6 +8280,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yeezy", "workspace:."],\
+            ["@tailwindcss/line-clamp", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\
