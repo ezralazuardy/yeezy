@@ -76,6 +76,7 @@ export default function Meta(props: MetaProps) {
       />
       <link rel="icon" href="/favicon.ico" />
       <link rel="manifest" href="/manifest.json" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta
         name="msapplication-TileImage"
