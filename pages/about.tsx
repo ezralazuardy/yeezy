@@ -12,9 +12,9 @@ export default function About() {
       <Header />
 
       <section className="text-white body-font">
-        <div className="container px-5 mt-52 mx-auto flex flex-col">
+        <div className="container px-5 py-40 lg:flex lg:h-screen lg:justify-center lg:items-center">
           <div className="lg:w-4/6 mx-auto">
-            <div className="flex flex-col sm:flex-row mt-10">
+            <div className="flex flex-col sm:flex-row">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                   <Image

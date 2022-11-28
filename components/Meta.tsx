@@ -77,12 +77,12 @@ export default function Meta(props: MetaProps) {
       <link rel="icon" href="/favicon.ico" />
       <link rel="manifest" href="/manifest.json" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileColor" content="#3f3f46" />
       <meta
         name="msapplication-TileImage"
         content="/assets/ms-icon-144x144.png"
       />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#3f3f46" />
       <meta
         name="description"
         content="Browse a curated list of cute and colorful yeezies!"

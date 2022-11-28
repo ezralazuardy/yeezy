@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 w-full z-50 bg-zinc-900 text-white body-font shadow-inner shadow-2xl">
+    <footer className="fixed bottom-0 w-full z-50 bg-zinc-900 text-white body-font shadow-2xl">
       <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
-        <p className="text-sm sm:py-2 sm:mt-0 mt-4">
+        <p className="text-sm sm:py-2 sm:mt-0 mt-2">
           © 2022 Yeezy —
           <Link
             href="https://instagram.com/ezralazuardyy"
@@ -15,7 +15,7 @@ export default function Footer() {
             @ezralazuardyy
           </Link>
         </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <span className="inline-flex sm:ml-auto mt-4 lg:mt-2 mb-2 justify-center sm:justify-start">
           <Link
             href="https://instagram.com/ezralazuardyy"
             rel="noopener noreferrer"

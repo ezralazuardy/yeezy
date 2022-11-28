@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.19"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:18.2.0"],\
+            ["react-loading-skeleton", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.1.0"],\
             ["tailwindcss", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.2.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
@@ -6824,6 +6825,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-loading-skeleton", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/react-loading-skeleton-npm-3.1.0-1d9cc9a93a-53d257c88e.zip/node_modules/react-loading-skeleton/",\
+          "packageDependencies": [\
+            ["react-loading-skeleton", "npm:3.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-loading-skeleton-virtual-373844757b/0/cache/react-loading-skeleton-npm-3.1.0-1d9cc9a93a-53d257c88e.zip/node_modules/react-loading-skeleton/",\
+          "packageDependencies": [\
+            ["react-loading-skeleton", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.1.0"],\
+            ["@types/react", "npm:18.0.25"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["read-cache", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",\
@@ -8303,6 +8326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.19"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:18.2.0"],\
+            ["react-loading-skeleton", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.1.0"],\
             ["tailwindcss", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:3.2.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\

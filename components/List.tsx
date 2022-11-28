@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import Card from "@/components/Card";
 import ApiOptions from "@/types/ApiOptions";
 import CardDataProps from "@/types/CardProps";
+import Card from "@/components/Card";
+import ListLoader from "@/components/ListLoader";
 
 const options: ApiOptions = {
   method: "GET",
@@ -24,14 +25,14 @@ export default function List() {
         .then((response) => setData(response))
         .catch((err) => console.error(err));
     }, 250);
-  }, []);
+  });
 
   return (
     <section className="text-white body-font">
-      <div className="container px-5 mt-28 mb-24 mx-auto">
+      <div className="container px-5 mt-36 lg:mt-28 mb-32 lg:mb-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           {data.length === 0 ? (
-            <p className="mx-auto text-center font-bold mt-4">Loading...</p>
+            <ListLoader count={12} />
           ) : (
             data.map((item: any, index: number) => (
               <Card key={index} data={item} />
