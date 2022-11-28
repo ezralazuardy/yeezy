@@ -27,8 +27,8 @@ export default function List() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-2 mx-auto">
+    <section className="text-white body-font">
+      <div className="container px-5 mt-28 mb-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           {data.length === 0 ? (
             <p className="mx-auto text-center font-bold mt-4">Loading...</p>

@@ -11,14 +11,14 @@ export default function Reference() {
 
       <Header />
 
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-8 mx-auto">
+      <section className="text-white body-font">
+        <div className="container px-5 mt-36 mx-auto">
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 flex-shrink-0">
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-orange-100 text-orange-500 flex-shrink-0">
               <Image src={icon} alt="foodref" width="80" height="80" />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-lg title-font font-semibold mb-2">
                 Food Reference
               </h2>
               <p className="leading-relaxed text-base">
@@ -28,7 +28,7 @@ export default function Reference() {
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-lg title-font font-semibold mb-2">
                 Application Reference
               </h2>
               <p className="leading-relaxed text-base">
@@ -36,16 +36,16 @@ export default function Reference() {
                 and Vercel.
               </p>
             </div>
-            <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 flex-shrink-0">
+            <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-orange-100 text-orange-500 flex-shrink-0">
               <Image src={icon} alt="appref" width="80" height="80" />
             </div>
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 flex-shrink-0">
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-orange-100 text-orange-500 flex-shrink-0">
               <Image src={icon} alt="apiref" width="80" height="80" />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-lg title-font font-semibold mb-2">
                 API Reference
               </h2>
               <p className="leading-relaxed text-base">

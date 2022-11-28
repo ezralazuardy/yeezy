@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@next/font", "npm:13.0.5"],\
             ["@tailwindcss/line-clamp", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\
@@ -2359,6 +2360,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@next/eslint-plugin-next", "npm:13.0.5"],\
             ["glob", "npm:7.1.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/font", [\
+        ["npm:13.0.5", {\
+          "packageLocation": "./.yarn/cache/@next-font-npm-13.0.5-c3f4c50033-12304ac4a5.zip/node_modules/@next/font/",\
+          "packageDependencies": [\
+            ["@next/font", "npm:13.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8280,6 +8290,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yeezy", "workspace:."],\
+            ["@next/font", "npm:13.0.5"],\
             ["@tailwindcss/line-clamp", "virtual:f2070dba38ad29b9ebb110849b8770ab3bf48d762fb651d087e9c4ad5fdd7cb0e7ea7cc8892a38a065b0c4471ac27d772fcfc57ff938f8f8027049540010d866#npm:0.4.2"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\

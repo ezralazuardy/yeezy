@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="text-gray-600 body-font">
-      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <p className="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
+    <footer className="fixed bottom-0 w-full z-50 bg-zinc-900 text-white body-font shadow-inner shadow-2xl">
+      <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
+        <p className="text-sm sm:py-2 sm:mt-0 mt-4">
           © 2022 Yeezy —
           <Link
             href="https://instagram.com/ezralazuardyy"
-            className="text-gray-600 ml-1"
+            className="ml-1 font-semibold"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -18,7 +18,8 @@ export default function Footer() {
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <Link
             href="https://instagram.com/ezralazuardyy"
-            className="text-gray-500"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <svg
               fill="none"
@@ -35,7 +36,9 @@ export default function Footer() {
           </Link>
           <Link
             href="https://www.linkedin.com/in/ezralazuardy"
-            className="ml-8 text-gray-500"
+            className="ml-8"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <svg
               fill="currentColor"
